@@ -1,0 +1,7 @@
+{
+	"nome": "Guilherme",
+	"sexo": "M",
+	"idade": 32,
+	"hobby": "MMORPG",
+	"datanascimento": "06/03/1988"
+}
