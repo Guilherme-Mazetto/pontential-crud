@@ -14,11 +14,11 @@ services:
       - mongo
     depends_on:
       - mongo
-    command: npm start
+    command: npm run dev
 
   mongo:
     container_name: "mongo"
     image: mongo
     ports:
       - "27017:27017"
-    command: mongod --smallfiles --logpath=/dev/null # --quiet
+    command: mongod --logpath=/dev/null # --quiet
