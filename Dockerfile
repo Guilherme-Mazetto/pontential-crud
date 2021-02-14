@@ -7,5 +7,6 @@ RUN npm install
 RUN npm install --save express debug 
 RUN npm install --save-dev nodemon
 RUN npm install --save express-validator
+RUN npm install --save mongoose dotenv
 
 COPY . /usr/src/app
